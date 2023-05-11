@@ -1,11 +1,10 @@
 package ru.netology;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-import static org.testng.Assert.*;
+import static org.junit.Assert.*;
 
 public class CashbackHackServiceTest {
-
     @Test
     public void testRemain() {
         CashbackHackService serviceTest = new CashbackHackService();
@@ -15,11 +14,12 @@ public class CashbackHackServiceTest {
         System.out.println("Вам следует докупить на " + Test1);
         assertEquals(Test1, 100);
     }
+
     @Test
     public void testRemainBad() {
         CashbackHackService serviceTest2 = new CashbackHackService();
-    int Test2 = serviceTest2.remain(800);
-    assertEquals(Test2, 200);
-        System.out.println("Вам следует докупить на " + Test2);
-}
+        int Test2 = serviceTest2.remain(1000);
+        assertEquals(Test2, 0);
+        
+    }
 }
