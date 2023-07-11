@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.CashbackHackServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-11T10:10:26" hostname="DESKTOP-L9M5EH2" time="0.017">
+<testsuite name="ru.netology.CashbackHackServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-11T11:25:43" hostname="DESKTOP-L9M5EH2" time="0.031">
   <properties/>
-  <testcase name="testRemain" classname="ru.netology.CashbackHackServiceTest" time="0.017"/>
+  <testcase name="testRemain" classname="ru.netology.CashbackHackServiceTest" time="0.031"/>
   <system-out><![CDATA[Р’Р°Рј СЃР»РµРґСѓРµС‚ РґРѕРєСѓРїРёС‚СЊ РЅР° 100
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
